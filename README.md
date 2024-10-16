@@ -15,7 +15,7 @@ Follow these steps to install the Tab Manager - Time Sensitivity Chrome extensio
 1. **Download the Extension**:
    - Clone or download this repository to your local machine:
      ```bash
-     git clone https://github.com/yourusername/tab-manager-time-sensitivity.git
+     git clone https://github.com/sing2236/tab-manager-time-sensitivity.git
      ```
    - Or download the ZIP file from the repository and extract it.
 
@@ -49,10 +49,6 @@ Follow these steps to install the Tab Manager - Time Sensitivity Chrome extensio
 ## Contributing
 
 If you'd like to contribute to this project, feel free to submit issues or pull requests. Your feedback and suggestions are welcome!
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 

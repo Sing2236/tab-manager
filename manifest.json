@@ -1,17 +1,23 @@
 {
     "manifest_version": 3,
     "name": "Tab Manager - Time Sensitivity",
-    "version": "1.1",
-    "description": "Manage tabs with time categories and view a persistent sidebar list.",
+    "version": "1.0",
+    "description": "Categorize and manage tabs based on time sensitivity.",
     "permissions": ["tabs", "storage"],
     "action": {
-      "default_popup": "popup.html"
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "icon16.png",
+            "48": "icon48.png",
+            "128": "icon128.png"
+        }
     },
     "background": {
-      "service_worker": "background.js"
+        "service_worker": "background.js"
     },
-    "sidebar_action": {
-      "default_panel": "sidebar.html"
+    "icons": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
     }
-  }
-  
+}

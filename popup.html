@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <h1>Tab Manager</h1>
+  <h3>@Sing2236 Github</h3>
+  <div id="tabManagerUI">
+    <ul id="tabList"></ul>
+    <div id="controls">
+      <select id="category">
+        <option value="urgent">Urgent</option>
+        <option value="dueTomorrow">Due Tomorrow</option>
+        <option value="upcomingWeek">Upcoming Week</option>
+        <option value="forLater">For Later</option>
+      </select>
+      <button id="assignCategory">Assign Category</button>
+      <button id="clearTabs">Clear Expired Tabs</button>
+      <button id="showTrackedTabs">Show Tracked Tabs</button>
+    </div>
+  </div>
+
+  <div id="trackedTabsContainer">
+    <h2>Tracked Tabs</h2>
+    <ul id="trackedTabList"></ul>
+    <button class="close-btn" id="closeTrackedTabs">Close</button>
+  </div>
+  
+  <script src="popup.js"></script>
+</body>
+</html>
